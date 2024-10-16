@@ -71,10 +71,6 @@
       background-color: var(--zen-colors-primary) !important;
     }
   }
-  
-  #forward-button, #back-button {
-    color: var(--accent-color)
-  }
 
   /* Browser and Settings Pages */
   @-moz-document url-prefix(about:), url-prefix(chrome:), url(https://www.mozilla.org/credits/) {
