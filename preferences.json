@@ -1,30 +1,52 @@
 [
-    {
-        "property": "theme.nord.accent-color",
-        "label": "Accent Color",
-        "type": "dropdown",
-        "defaultValue": "red",
-        "options": [
-            {
-                "label": "Red",
-                "value": "red"
-            },
-            {
-                "label": "Orange",
-                "value": "orange"
-            },
-            {
-                "label": "Yellow",
-                "value": "yellow"
-            },
-            {
-                "label": "Green",
-                "value": "green"
-            },
-            {
-                "label": "Purple",
-                "value": "purple"
-            }
-        ]
-    }
+  {
+    "property": "theme.nord.accent",
+    "label": "Accent Color",
+    "type": "dropdown",
+    "defaultValue": "red",
+    "options": [
+      {
+        "label": "Red",
+        "value": "red"
+      },
+      {
+        "label": "Orange",
+        "value": "orange"
+      },
+      {
+        "label": "Yellow",
+        "value": "yellow"
+      },
+      {
+        "label": "Green",
+        "value": "green"
+      },
+      {
+        "label": "Purple",
+        "value": "purple"
+      },
+      {
+        "label": "Frost",
+        "value": "frost"
+      }
+    ]
+  },
+  {
+    "property": "theme.nord.borders",
+    "label": "Rich Colors Borders",
+    "type": "checkbox",
+    "defaultValue": "true"
+  },
+  {
+    "property": "theme.nord.tabs.icons",
+    "label": "Rich Colors Tab Icons",
+    "type": "checkbox",
+    "defaultValue": "false"
+  },
+  {
+    "property": "theme.nord.background.darker",
+    "label": "Darker Dark Background",
+    "type": "checkbox",
+    "defaultValue": "true"
+  }
 ]
